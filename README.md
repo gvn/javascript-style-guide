@@ -1,8 +1,4 @@
-# Mozilla Foundation JS Style Guide
-
-This repo contains an [ESLint](http://eslint.org/) "RC" file, which defines our standard JavaScript formatting rules.
-
-Additionally, ESLint will discover common syntax errors in your code.
+# ES6 & SCSS linter RC's
 
 ## Installing ESLint
 
@@ -31,10 +27,6 @@ It's recommended that you add a linting task to your project's task runner (pref
 ESLint has a very helpful flag, `--fix`, which will automatically fix many styling issues for you (anything with a wrench icon on [this page](http://eslint.org/docs/rules/)).
 
 If you incorporate `--fix` into your task runner, then it's recommended that you make a new task for it instead of adding it to your standard linting task. This will allow you to safely connect your standard read-only test to Travis without running the risk of it modifying your committed code.
-
-## Extending The RC
-
-The RC provided in this repo is intended to cover any ES6 based project. It's up to you to extend it to cover your project's specific environment(s). You can either specify environments via the `--env` flag or add a `eslintConfig` field to your `package.json` with your extended configuration. Read more on this topic [here](http://eslint.org/docs/user-guide/configuring).
 
 ## Rules
 
