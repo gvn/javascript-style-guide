@@ -1,4 +1,4 @@
-# ES6 & SCSS linter RC's
+# ES6 & SCSS linter RCs
 
 ## Installing ESLint
 
