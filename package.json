@@ -1,24 +1,20 @@
 {
-  "name": "mofo-style",
-  "version": "2.2.0",
-  "description": "A Javascript style guide including linters for the Mozilla Foundation Engineering team.",
-  "main": "",
+  "name": "gvn-style",
+  "version": "1.0.0",
+  "description": "ES6 and SCSS RC files",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "style guide",
-    "lint",
-    "MoFo",
-    "Mozilla"
+    "lint"
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/MozillaFoundation/javascript-style-guide.git"
+    "url": "git://github.com/gvn/style"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/MozillaFoundation/javascript-style-guide/issues"
+    "url": "https://github.com/gvn/style"
   },
-  "homepage": "https://github.com/MozillaFoundation/javascript-style-guide"
+  "homepage": "https://github.com/gvn/style"
 }
